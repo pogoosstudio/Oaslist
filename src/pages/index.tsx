@@ -50,7 +50,7 @@ export default function Home() {
           <div>
             {bots?.length &&
               bots
-                .filter((d) => d.accepted)
+                
                 .sort((a, b) => b.votes?.length - a.votes?.length)
                 .map((data) => {
                   return (
